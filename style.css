@@ -1,0 +1,222 @@
+body {
+    background: var(--color-stone-100, #F3E5D7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: var(--spacing-1600, 128px) var(--spacing-600, 48px);
+    gap: var(--spacing-100, 8px);
+}
+
+.card {
+    display: flex;
+    width: 736px;
+    padding: var(--spacing-500, 40px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-500, 40px);
+    flex-shrink: 0;
+    border-radius: var(--spacing-300, 24px);
+    background: var(--color-white, #FFF);
+    position:relative;
+}
+
+.top-image {
+    height: 300px;
+    align-self: stretch;
+    border-radius: var(--spacing-150, 12px);
+    display:block;
+    justify-content: center;
+    max-width: 100%;
+    position: absolute;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: var(--spacing-150, 12px);
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-400, 32px);
+    align-self: stretch;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-300, 24px);
+    align-self: stretch;
+}
+
+h1 {
+    color: var(--color-stone-900, #312E2C);
+    align-self: stretch;
+
+    /* Desktop/text-preset-1 */
+    font-family: "Young Serif";
+    font-size: var(--font-size-desktop-text-preset-1, 40px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 40px */
+}
+
+p {
+    color: var(--color-stone-600, #5F564D);
+    align-self: stretch;
+
+    /* Desktop/text-preset-4 */
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-4, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    
+}
+
+.preparation {
+    display: flex;
+    padding: var(--spacing-300, 24px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-200, 16px);
+    align-self: stretch;
+    border-radius: var(--spacing-150, 12px);
+    background: var(--color-rose-50, #FFF7FB);
+}
+
+h3 {
+    color: var(--color-rose-800, #7A284E);
+    align-self: stretch;
+
+    /* Desktop/text-preset-3 */
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-3, 20px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 20px */
+}
+
+ul #prep-time {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-100, 8px);
+    align-self: stretch;
+    list-style-position: inside;
+}
+
+li .prep-time {
+    display: flex;
+    padding-left: var(--spacing-100, 8px);
+    align-items: center;
+    gap: var(--spacing-200, 16px);
+    align-self: stretch;
+}
+
+li {
+    /* Desktop/text-preset-4 */
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-4, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    padding-left: 10px;
+    color: var(--color-stone-600, #5F564D);
+    margin: 8px;
+}
+
+li::marker {
+    color: var(--color-brown-800, #854632);
+}
+
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-300, 24px);
+    align-self: stretch;
+}
+
+h2 {
+    color: var(--color-brown-800, #854632);
+    align-self: stretch;
+
+    /* Desktop/text-preset-2 */
+    font-family: "Young Serif";
+    font-size: var(--font-size-desktop-text-preset-2, 28px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 28px */
+}
+
+ul #ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-100, 8px);
+    align-self: stretch;
+    list-style-position: inside;
+}
+
+li .ingredient {
+    display: flex;
+    padding-left: var(--spacing-100, 8px);
+    align-items: center;
+    gap: var(--spacing-200, 16px);
+    align-self: stretch;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-300, 24px);
+    align-self: stretch;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-100, 8px);
+    align-self: stretch;
+    list-style-position: outside;
+}
+
+li .instruction {
+    display: flex;
+    padding-left: var(--spacing-100, 8px);
+    align-items: flex-start;
+    gap: var(--spacing-200, 16px);
+    align-self: stretch;
+}
+
+.nutrition {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-300, 24px);
+    align-self: stretch;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-150, 12px);
+    align-self: stretch;
+}
+
+hr {
+    width: 656px;
+    height: 1px;
+    background: var(--color-stone-150, #E3DDD7);
+    border: none;
+}
